@@ -3,6 +3,7 @@ const API_LINK = "https://api.adviceslip.com/advice",
   adviceQuote = document.querySelector(".advice-gen__quote"),
   fetchBtn = document.querySelector(".advice-gen__btn");
 
+  
 const fetchNewAdvice = async () => {
   const response = await fetch(API_LINK);
   const data = await response.json();
@@ -21,6 +22,12 @@ const generateAdvice = async () => {
 
 fetchBtn.addEventListener("click", generateAdvice);
 
+window.setTimeout( function() {
+  window.location.reload();
+}, 10000);
+
+
 window.onload = () => {
   generateAdvice();
+  
 };
