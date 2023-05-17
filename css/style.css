@@ -98,8 +98,9 @@ body {
   border: none;
   border-top: 1px solid var(--Grayish-Blue);
 }
-.advice-gen .button .image {
+.advice-gen .image {
   padding: 1.25rem;
+  animation: spin 3s linear 2s infinite;
 }
 .advice-gen .advice-gen__output {
   animation: opacity 2s;
@@ -107,11 +108,13 @@ body {
 .advice-gen__btn {
   width: 4rem;
   background: var(--Neon-Green);
+  border: none;
   border-radius: 50%;
   transform: translate(0, 2.5rem);
   margin-bottom: -4rem;
 }
 .advice-gen .advice-gen__btn:hover {
+  cursor: pointer;
   box-shadow: 0px 0px 30px 0px var(--Neon-Green);
 }
 .container:hover {
@@ -121,9 +124,7 @@ body {
   transition: transform 0.3s linear;
 }
 
-.advice-gen .button .image {
-  animation: spin 3s linear 2s infinite;
-}
+
 
 /* animations */
 
