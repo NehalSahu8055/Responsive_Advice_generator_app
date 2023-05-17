@@ -98,15 +98,6 @@ body {
   border: none;
   border-top: 1px solid var(--Grayish-Blue);
 }
-
-.advice-gen .divider .trex {
-  position: absolute;
-  transform: translate(220px, -12px);
-  font-size: 1.4rem;
-  animation: run1, jump, run2;
-  animation-duration: 3s, 2s, 5s;
-  animation-delay: 1s, 2s, 3s;
-}
 .advice-gen .button .image {
   padding: 1.25rem;
 }
