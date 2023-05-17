@@ -19,10 +19,19 @@
       href="./images/favicon-32x32.png"
     />
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Linking Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Linking Script File -->
+    <script defer src="js/script.js"></script>
 
     <title>Advice generator app</title>
   </head>
@@ -39,22 +48,29 @@
           <q
             class="advice-gen__quote fs-large letter-spacing-2 line-height-2"
             title="Quote"
-            ></q
-          >
+          ></q>
         </div>
         <div class="divider flex-row flex-c">
           <hr />
-          <img class="divider_img" src="images/divider.svg" alt="divider" />
+          <img
+            class="divider__img"
+            src="images/divider.svg"
+            alt="divider image"
+          />
           <hr />
-          <p class="trex divider_img">🦖</p>
+          <p class="trex divider__img">🦖</p>
         </div>
         <div class="button flex-row flex-c">
           <div class="advice-gen__btn flex-row flex-c t-center" title="button">
-            <input class="image" type="image" src="images/icon-dice.svg" alt="icon-dice"/>
+            <input
+              class="image"
+              type="image"
+              src="images/icon-dice.svg"
+              alt="icon dice image"
+            />
           </div>
         </div>
       </div>
     </main>
-    <script defer src="js/script.js"></script>
   </body>
 </html>
