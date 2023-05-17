@@ -79,9 +79,6 @@ body::-webkit-scrollbar {
 body {
   min-height: 100vh;
   background: var(--Dark-Blue);
-  /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🦖</text></svg>") */
-  /* 16 0, */
-  /* auto; */
 }
 .container {
   max-width: 33.75rem;
@@ -117,9 +114,7 @@ hr {
   animation: opacity 2s;
 }
 .advice-gen__btn {
-  /* position:relative; */
   width: 4rem;
-  /* height: 64px; */
   background: var(--Neon-Green);
   border-radius: 50%;
   transform: translate(0, 2.5rem);
@@ -145,7 +140,7 @@ hr {
   font-size: 1.4rem;
   animation: run1, jump, run2;
   animation-duration: 3s, 2s, 5s;
-  animation-delay: 2s, 4s, 5s;
+  animation-delay: 1s, 2s, 3s;
 }
 .image {
   animation: spin 3s linear 2s infinite;
